@@ -84,10 +84,12 @@ Project_expense_tracking_system/
     streamlit run frontend/app.py
    
 📸 Screenshots
-- Add/update tab
+
+Add/update tab
 
 ![img.png](img.png)
-- Analytics tab
+
+Analytics tab
 
 ![img_1.png](img_1.png)
 
