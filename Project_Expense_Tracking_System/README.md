@@ -83,7 +83,7 @@ Project_expense_tracking_system/
     ```bash
     streamlit run frontend/app.py
    
-📸 Screenshots
+##  📸 Screenshots
 
 Add/update tab
 
@@ -93,18 +93,11 @@ Analytics tab
 
 ![img_1.png](img_1.png)
 
-🧪 Tests
+## 🧪 Tests
 
 Test cases are located in the tests/ folder.
 
-🏗️ Future Work
-- User login system
-- Monthly budget goals
-- Export data (CSV/PDF)
-- Pie chart visualizations
-
-
-👩‍💻 Author
+##  👩‍💻 Author
 
 Divyanshi Chaurasia
 
