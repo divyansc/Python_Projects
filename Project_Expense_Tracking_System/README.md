@@ -15,7 +15,7 @@ A full-stack application for tracking personal expenses with a clean interface, 
 
 ## 📁 Project Structure
 
-5_project_two_expense_management/
+Project_expense_tracking_system/
 ├── backend/ # FastAPI server logic & database interaction
 │ ├── server.py
 │ ├── db_helper.py
