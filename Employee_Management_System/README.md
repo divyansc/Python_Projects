@@ -22,7 +22,6 @@ This is a simple **Employee Management System** project built in Python. It allo
 ## Setup and Installation
 
 1. Clone the repository:
-
 ```bash
 git clone <repository-url>
 cd Employee_Management_System/Employee_Management_System
@@ -42,9 +41,8 @@ python manage.py runserver
 5. Run tests (if any):
 python -m unittest discover test
 
+```
 ## Usage
-
-Access the application through the local server (e.g., http://127.0.0.1:8000/ if using Django).
-
-Use the interface to manage employees.
+- Access the application through the local server (e.g., http://127.0.0.1:8000/ if using Django).
+- Use the interface to manage employees.
 
