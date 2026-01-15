@@ -48,7 +48,7 @@ Each employee has the following fields:
 
 - date_joined (auto generated)
 
-How to Run the Project
+### How to Run the Project
 1. Activate virtual environment
 source venv/Scripts/activate   # For Windows (Git Bash)
 
@@ -145,6 +145,7 @@ Updating employee
 
 Deleting employee
 
-### Summary
+## Summary
 This project demonstrates basic backend development using Django REST Framework, including authentication, validation, and API testing.
+
 
