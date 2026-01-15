@@ -1,12 +1,10 @@
-Employee Management API
-About the Project
-
+# Employee Management API
+## About the Project
 This is a simple backend project built using Django and Django REST Framework.
 The project provides APIs to manage employees in a company.
-
 The main goal of this project is to perform basic CRUD operations and secure the APIs using authentication.
 
-What This Project Does
+## What This Project Does
 
 + Allows creating a new employee
 
@@ -18,11 +16,11 @@ What This Project Does
 
 + Allows deleting an employee
 
-Prevents creating employees with duplicate email IDs
++ Prevents creating employees with duplicate email IDs
 
-Only authenticated users can access the APIs
++ Only authenticated users can access the APIs
 
-Technologies Used:
+### Technologies Used:
 
 - Python
 
@@ -149,3 +147,4 @@ Deleting employee
 
 ### Summary
 This project demonstrates basic backend development using Django REST Framework, including authentication, validation, and API testing.
+
