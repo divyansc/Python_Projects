@@ -24,31 +24,31 @@ Only authenticated users can access the APIs
 
 Technologies Used:
 
-Python
+- Python
 
-Django
+- Django
 
-Django REST Framework
+- Django REST Framework
 
-JWT Authentication (SimpleJWT)
+- JWT Authentication (SimpleJWT)
 
-SQLite database
+- SQLite database
 
-Employee Fields
+### Employee Fields
 
 Each employee has the following fields:
 
-id (auto generated)
+- id (auto generated)
 
-name
+- name
 
-email (unique)
+- email (unique)
 
-department
+- department
 
-role
+- role
 
-date_joined (auto generated)
+- date_joined (auto generated)
 
 How to Run the Project
 1. Activate virtual environment
@@ -67,7 +67,7 @@ python manage.py createsuperuser
 5. Start the server
 python manage.py runserver
 
-Authentication
+### Authentication
 
 JWT authentication is used.
 
@@ -85,7 +85,7 @@ Use the token in headers:
 
 Authorization: Bearer <access_token>
 
-API Endpoints
+### API Endpoints
 Create Employee
 
 POST /api/employees/
@@ -94,7 +94,7 @@ Get All Employees
 
 GET /api/employees/
 
-Supports filtering and pagination:
+### Supports filtering and pagination:
 
 /api/employees/?department=HR
 /api/employees/?role=Developer
@@ -112,7 +112,7 @@ Delete Employee
 
 DELETE /api/employees/{id}/
 
-Error Handling
+### Error Handling
 
 Returns 400 if validation fails (like duplicate email)
 
@@ -124,7 +124,7 @@ Returns 201 on successful creation
 
 Returns 204 on successful deletion
 
-Testing
+### Testing
 
 Basic tests are written to check all main APIs.
 
@@ -147,6 +147,5 @@ Updating employee
 
 Deleting employee
 
-Summary
-
+### Summary
 This project demonstrates basic backend development using Django REST Framework, including authentication, validation, and API testing.
